@@ -208,8 +208,7 @@ label{ color: black; }
   </div>
   <div class="tab document">:
     <p>
-      <label for="upload" >Upload Document</label>
-      input</p>
+      <label for="upload" >Upload Document</label></p>
       <p><!-- <input  class="uploadbox" id="uploadbox" type="file" placeholder="Document Image" oninput="this.className = ''" name="file" > -->
       <a href="#" class="btn btn-default" id="openBtn">Upload Document</a>
       </p>

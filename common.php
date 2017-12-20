@@ -7,9 +7,10 @@ ini_set('display_errors', 'off');
 define("_BASE_URL_PATH_", "wallet");
 define("IN_WALLET", true);
 define("ADMIN_EMAIL", "zenithnex@gmail.com");
-
-define("URL_API", "http://localhost");
-
+//define("URL_API", "http://192.168.1.11:1338");
+//$url_api='http://199.188.206.184:1337';
+define("URL_API", "http://199.201.110.205:1338");
+/*define("URL_API", "http://192.168.1.7:1338");*/
 
 $url_api=URL_API;
 session_start();
